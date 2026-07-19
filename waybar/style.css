@@ -1,0 +1,112 @@
+@import url("file:///home/moyis/.config/colors.css"); 
+
+* {
+    font-family: "Ubuntu Mono";
+    font-size: 16px;
+}
+
+/* Waybar background */
+window#waybar {
+    background: transparent;
+}
+
+/* Module groups */
+window#waybar .modules-left,
+window#waybar .modules-center,
+window#waybar .modules-right {
+    background: alpha(@background, 0.75);
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 2px solid alpha(@color4, 0.7);
+    color: @foreground;
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 6px;
+    margin: 2px;
+    border-radius: 6px;
+    background: transparent;
+    color: @foreground;
+    border: none;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+    background: alpha(@color4, 0.6);
+    color: @background;
+}
+
+#workspaces button:hover {
+    background: alpha(@color5, 0.35);
+}
+
+/* Module spacing */
+#workspaces,
+#custom-cpu,
+#memory,
+#custom-gpu,
+#pulseaudio,
+#network,
+#bluetooth,
+#custom-mpd,
+#clock,
+#tray {
+    margin: 0 6px;
+    color: @foreground;
+}
+
+/* Optional accents for specific modules */
+#custom-cpu {
+    color: @color5;
+}
+
+#memory {
+    color: @color6;
+}
+
+#network {
+    color: @color4;
+}
+
+#pulseaudio {
+    color: @color2;
+}
+
+#bluetooth {
+    color: @color6;
+}
+
+#clock {
+    color: @color5;
+}
+
+/* MPD module */
+#custom-mpd {
+    color: @foreground;
+}
+
+/* Tray icons */
+#tray {
+    padding: 0 4px;
+}
+
+/* subtle hover animation */
+#workspaces button,
+#custom-cpu,
+#memory,
+#network,
+#pulseaudio,
+#bluetooth,
+#clock {
+    transition: all 0.2s ease;
+}
+
+#custom-power {
+    font-size: 28px;
+    color: @color1;
+}
+
+#custom-gpu {
+  color: @color3;
+}
