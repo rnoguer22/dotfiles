@@ -37,6 +37,7 @@ ln -sf $DOTFILES_DIR/.zshrc ~/.zshrc
 ln -sfT $DOTFILES_DIR/gtk-3.0 ~/.config/gtk-3.0
 ln -sfT $DOTFILES_DIR/gtk-4.0 ~/.config/gtk-4.0
 ln -sfT $DOTFILES_DIR/wallpapers ~/Pictures/wallpapers
+ln -sfT $DOTFILES_DIR ~/.config
 
 # 6. Configurar Zsh por defecto
 if [[ "$SHELL" != *"zsh"* ]]; then
