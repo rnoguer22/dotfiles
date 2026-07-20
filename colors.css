@@ -1,0 +1,43 @@
+/* ~/.config/waybar/colors.css */
+
+@define-color background #24283b;
+@define-color foreground #c0caf5;
+@define-color selection_background #2e3c64;
+@define-color selection_foreground #c0caf5;
+@define-color url_color #73daca;
+@define-color cursor #c0caf5;
+@define-color cursor_text_color #24283b;
+
+/* Tabs */
+@define-color active_tab_background #7aa2f7;
+@define-color active_tab_foreground #1f2335;
+@define-color inactive_tab_background #292e42;
+@define-color inactive_tab_foreground #545c7e;
+
+/* Windows */
+@define-color active_border_color #7aa2f7;
+@define-color inactive_border_color #292e42;
+
+/* Normal */
+@define-color color0 #1d202f;
+@define-color color1 #f7768e;
+@define-color color2 #9ece6a;
+@define-color color3 #e0af68;
+@define-color color4 #7aa2f7;
+@define-color color5 #bb9af7;
+@define-color color6 #7dcfff;
+@define-color color7 #a9b1d6;
+
+/* Bright */
+@define-color color8 #414868;
+@define-color color9 #ff899d;
+@define-color color10 #9fe044;
+@define-color color11 #faba4a;
+@define-color color12 #8db0ff;
+@define-color color13 #c7a9ff;
+@define-color color14 #a4daff;
+@define-color color15 #c0caf5;
+
+/* Extended colors */
+@define-color color16 #ff9e64;
+@define-color color17 #db4b4b;
